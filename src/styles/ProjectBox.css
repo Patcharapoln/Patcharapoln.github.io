@@ -1,0 +1,16 @@
+.tool-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.project-icon {
+  max-width: 60%;
+  margin-bottom: 15px;
+}
+
+.tool-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}

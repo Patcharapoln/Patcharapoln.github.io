@@ -1,0 +1,26 @@
+.bar-wrapper {
+  width : 100%;
+  margin-bottom: 100px;
+}
+.bar-wrapper > nav {
+  box-shadow: 2px 2px 2px rgb(211, 211, 211);
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+  outline: 0px !important;
+}
+
+.element-wrapper{
+  margin-right: 30px;
+}
+
+.bar-elements {
+  padding: 10px;
+}
+
+.bar-elements:hover{
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.2);
+}
+

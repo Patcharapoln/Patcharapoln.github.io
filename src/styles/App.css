@@ -1,0 +1,17 @@
+.app{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 50px; 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content > div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}

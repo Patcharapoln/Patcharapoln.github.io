@@ -1,0 +1,21 @@
+.about {
+  margin-top: 35px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.picture {
+  max-width: 75%;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.text{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
