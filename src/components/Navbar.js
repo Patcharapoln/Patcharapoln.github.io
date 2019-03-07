@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link} from 'react-scroll'
 import {Nav, Navbar} from 'react-bootstrap'
+import title from '../static/title.png'
 import '../styles/Navbar.css'
 
 class NavBar extends Component {
@@ -8,7 +9,7 @@ class NavBar extends Component {
     return (
       <div className="bar-wrapper">
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home"><img className="nav-title" src={title} alt="title"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">

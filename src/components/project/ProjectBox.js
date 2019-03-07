@@ -12,7 +12,7 @@ class ProjectBox extends Component {
             <hr />
             <Row>
               <Col sm={5}>
-                <div>
+                <div className="proIcon-container">
                   <img className="project-icon" src={project.icon} alt="icon" />
                 </div>
               </Col>

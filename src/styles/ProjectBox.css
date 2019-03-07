@@ -5,6 +5,10 @@
   margin-right: 10px;
 }
 
+.proIcon-container {
+  text-align: center;
+}
+
 .project-icon {
   max-width: 60%;
   margin-bottom: 15px;
