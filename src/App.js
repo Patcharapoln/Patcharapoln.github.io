@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import './styles/App.css'
 import Skill from './components/skill/Skill';
 import Project from './components/project/Project'
+import Contract from './components/Contract'
 
 class App extends Component {
   render() {
@@ -21,6 +22,9 @@ class App extends Component {
           <Element name="Project">
             <Project />
           </Element>
+          <Element name="Contract">
+            <Contract />
+          </Element>  
         </div>
       </div>
     )

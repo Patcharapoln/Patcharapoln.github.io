@@ -22,7 +22,7 @@ class NavBar extends Component {
             <Link className='bar-elements' to="Project" spy={true} smooth={true} offset={-80} duration={700}>
               Project
             </Link>
-            <Link className='bar-elements' to="Experience" spy={true} smooth={true} offset={-20} duration={700}>
+            <Link className='bar-elements' to="Contract" spy={true} smooth={true} offset={-20} duration={700}>
               Contract
             </Link>
             </Nav>
