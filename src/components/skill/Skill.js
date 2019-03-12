@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Box from './SkillBox'
+import {Fade} from 'react-reveal';
+import SkillBox from './SkillBox'
 import '../../styles/Skill.css'
 import FontAwesome from 'react-fontawesome'
 
@@ -50,9 +51,11 @@ class Skill extends Component {
           Skills
         </h2>
         <hr />
-        <Box element={this.state.web} title={this.state.webTitle} />
-        <Box element={this.state.mobile} title={this.state.mobileTitle} />
-        <Box element={this.state.database} title={this.state.databaseTitle} />
+        <Fade top>
+          <SkillBox element={this.state.web} title={this.state.webTitle} />
+          <SkillBox element={this.state.mobile} title={this.state.mobileTitle} />
+          <SkillBox element={this.state.database} title={this.state.databaseTitle} />
+        </Fade>
       </div>
     )
   }

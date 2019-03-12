@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Fade} from 'react-reveal';
 import ProjectBox from './ProjectBox'
 import FontAwesome from 'react-fontawesome'
 import amicus from '../../static/Projects/amicus.jpg'
@@ -56,9 +57,11 @@ class Project extends Component {
         </h2>
         <hr />
         <div>
+        <Fade top>
           <ProjectBox project={this.state.Amicus} />
           <ProjectBox project={this.state.Snake} />
           <ProjectBox project={this.state.secondMom} />
+        </Fade>
         </div>
       </div>
     )

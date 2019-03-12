@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../../styles/SkillBox.css'
 
-class Box extends Component {
+class SkillBox extends Component {
   render() {
     return (
       <div className="box-wrapper">
@@ -20,4 +20,4 @@ class Box extends Component {
   }
 }
 
-export default Box
+export default SkillBox
