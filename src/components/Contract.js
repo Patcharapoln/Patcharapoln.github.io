@@ -41,7 +41,7 @@ class Contract extends Component {
         </Row>
         <Row>
           <Col>
-            <button>
+            <button className="contract-button">
               <a href="https://github.com/Patcharapoln">
                 <img className="button-icon" src={github} alt="Github" />
                 Github
@@ -49,7 +49,7 @@ class Contract extends Component {
             </button>
           </Col>
           <Col>
-            <button>
+            <button className="contract-button">
               <a href="https://drive.google.com/uc?export=download&id=1ejUKmjExNmeO2EhZ8RVgml_3_PJLMXT4">
                 <img className="button-icon" src={pdf} alt="Resume" />
                 Resume
